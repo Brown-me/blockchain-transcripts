@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: custom background gradient */
+body {
+  @apply bg-gradient-to-br from-darkBg to-lightBg text-gray-100;
+}
